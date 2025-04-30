@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-background img {
+    width: 100px;   
+}
+.logo-background {
+    background-color: black;
+    color: white;
+    display: flex;
+    opacity: 0.6;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+.logo-background div {
+    margin-top: 30px;
+    font-size: 80px;
+}
+
+.sidebar {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    height: 700px;
+    width: 500px;
+    background-image: url('images/leaf-image.png');
+}
+
+.sidebar .credit {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
